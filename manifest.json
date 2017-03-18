@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Deluge Chrome Extension",
+  "description": "Download magnet and torrent links via a context menu entry",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "deluge-icon.png"
+  },
+
+  "icons": {
+    "16": "deluge-icon.png"
+  },
+
+  "permissions": [
+    "http://torrent.ckserv.net/json",
+    "contextMenus"
+  ],
+
+  "background": {
+    "scripts": [
+      "vendor/jquery-3.2.0.min.js",
+      "main.js"
+    ]
+  }
+}

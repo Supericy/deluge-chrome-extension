@@ -1,2 +1,3 @@
 # deluge-chrome-extension
-Add a context menu entry to links, allowing for downloading torrents on a remote server
+Add a "Deluge Download" context menu entry on links, which allows for you to
+start a torrent/magnet download on a remote machine running Deluge.
