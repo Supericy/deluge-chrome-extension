@@ -79,7 +79,7 @@ var Deluge = (function (console, $) {
     Deluge.prototype.fail = function (result) {
         console.log('fail', result);
 
-        alert('Something went wrong, check the logs!');
+        alert('Something went wrong, make sure deluge is started (go to torrent.ckserv.net) or check the logs!');
     };
 
     Deluge.prototype.login = function (password, authenticatedCallback) {
@@ -192,3 +192,4 @@ chrome.runtime.onInstalled.addListener(function() {
     var app = new App(deluge);
     app.run();
 });
+
