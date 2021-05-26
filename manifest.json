@@ -14,8 +14,8 @@
   },
 
   "permissions": [
-    "http://torrent.ckserv.net/json",
-    "http://m.ckserv.net/json",
+    "http://manage.m.ckserv.net/api/download",
+    "http://127.0.0.1:8000/api/download",
     "contextMenus"
   ],
 
