@@ -1,6 +1,6 @@
 "use strict";
 
-var DELUGE_API_ENDPOINT = 'http://torrent.ckserv.net/json';
+var DELUGE_API_ENDPOINT = 'http://m.ckserv.net:8112/json'; // 'http://torrent.ckserv.net/json';
 var DELUGE_API_TORRENT_OPTIONS = { // should load this from deluge
     "file_priorities": [],
     "add_paused": false,
